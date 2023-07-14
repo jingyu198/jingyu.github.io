@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to Jingyu's website!!"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
