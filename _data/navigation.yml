@@ -1,10 +1,10 @@
 # main links links
 main:
-  - title: "CV"
-    url: https://jingyu198.github.io/jingyu.github.io/assets/CV.pdf
-    
   - title: "Research"
     url: /cv/
+    
+  - title: "CV"
+    url: https://jingyu198.github.io/jingyu.github.io/assets/CV.pdf
   
   - title: "Photography"
     url: /portfolio/
