@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Jingyu Guo's Personal Homepage"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Jingyu Guo"
 description              : &description "personal description"
 url                      : https://jingyu.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "jingyu198.github.io/jingyu.github.io"
+repository               : "jingyu198/jingyu.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
