@@ -36,6 +36,6 @@ Investigate 3D convolutional neural networks as a novel approach to predict ther
 
 Numerical simulation on the aircraft icing process (Undergraduate Capstone Project)
 ------
-<img src='https://jingyu198.github.io/jingyu.github.io/images/img5.png' style='width: 630px; height: 420px;'>
+<img src='https://jingyu198.github.io/jingyu.github.io/images/img5.png' style='width: 500px; height: 250px;'>
 
 Numerically simulate the aircraft icing process, analyze the effects of several important environment factors on the ice shape. Our work provides theoretical support for the safe operation of aircraft.
