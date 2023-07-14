@@ -19,6 +19,7 @@ We target to build an intelligent data-driven system to automatically extract ma
 
 
 
+
 Studies on the thermal properties of composite materials (Research Assistant)
 ------
 <img src='https://jingyu198.github.io/jingyu.github.io/images/img1.png' style='width: 500px; height: 250px;'>         <img src='https://jingyu198.github.io/jingyu.github.io/images/img2.png' style='width: 400px; height: 230px;'>
@@ -30,6 +31,7 @@ A multiscale numerical method is proposed to investigate the coupled conduction 
 <img src='https://jingyu198.github.io/jingyu.github.io/images/img3.png' style='width: 500px; height: 250px;'>         <img src='https://jingyu198.github.io/jingyu.github.io/images/img4.png' style='width: 420px; height: 220px;'>
 
 Investigate 3D convolutional neural networks as a novel approach to predict thermal properties. The networks learn the mapping from sophisticated material microstructures with phase-property, to effective properties at macro-level.
+
 
 
 
