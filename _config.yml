@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Jingyu Guo"
   avatar           : "../images/wechat.jpg"
-  bio              : "Be confident and keep exploring..."
+  bio              : "Keep exploring..."
   location         : "Singapore"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/jingyu198"
+  github           : "jingyu198"
   google_plus      :
   keybase          :
   instagram        :
