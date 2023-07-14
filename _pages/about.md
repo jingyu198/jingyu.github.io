@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Hello! My name is Jingyu Guo (郭靖宇). I'm a second year master student in Computing School at National University of Singapore, advised by Prof. [Jinsong Dong](https://www.comp.nus.edu.sg/~dongjs/). During my master's study, I have dedicated myself to Sports Analytics, with a focus on broadcast tennis videos. I am also broadly interested in various topics in Machine Learning, Artificial Intelligence and their applications.
+Hello! My name is Jingyu Guo (郭靖宇). I'm a second year master student in Computing School at National University of Singapore, advised by Prof. [Jin-Song Dong](https://www.comp.nus.edu.sg/~dongjs/). During my master's study, I have dedicated myself to Sports Analytics, with a focus on broadcast tennis videos. I am also broadly interested in various topics in Machine Learning, Artificial Intelligence and their applications.
+
+I got my bachelor's degree from School of Energy and Power Engineering Department, Xi'an Jiaotong University, where I worked with Prof. [Ya-Ling He](https://scholar.google.com/citations?user=lCIq-10AAAAJ&hl=zh-CN&oi=ao).
 
 A data-driven personal website
 ======
