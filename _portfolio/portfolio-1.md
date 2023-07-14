@@ -1,5 +1,5 @@
 ---
-title: "Deep learning application in sports (Graduate Capstone Project at NUS, in progress)"
+title: "1. Deep learning application in sports (Graduate Capstone Project at NUS, in progress)"
 excerpt: "
 <img src='https://jingyu198.github.io/jingyu.github.io/images/demo1.gif'><br/><br/>
 We target to build an intelligent data-driven system to automatically extract match information from tennis broadcast videos, including subtasks like court localization, player action recognition, ball tracking, and game event spotting. Various techniques have been utilized including Computer Vision, Bayesian Estimations, and Camera Calibration, etc.<br/><br/>
