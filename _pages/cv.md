@@ -20,7 +20,7 @@ We target to build an intelligent data-driven system to automatically extract ma
 
 
 
-Studies on the thermal properties of composite materials (Research Assistant)
+Studies on the thermal properties of composite materials (Research Assistant at XJTU)
 ------
 <img src='https://jingyu198.github.io/jingyu.github.io/images/img1.png' style='width: 460px; height: 230px;'>         <img src='https://jingyu198.github.io/jingyu.github.io/images/img2.png' style='width: 440px; height: 220px;'>
 
@@ -36,7 +36,7 @@ Investigate 3D convolutional neural networks as a novel approach to predict ther
 
 
 
-Numerical simulation on the aircraft icing process (Undergraduate Capstone Project)
+Numerical simulation on the aircraft icing process (Undergraduate Capstone Project at XJTU)
 ------
 <img src='https://jingyu198.github.io/jingyu.github.io/images/img5.png' style='width: 500px; height: 250px;'>
 
