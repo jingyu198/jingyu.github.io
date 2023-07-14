@@ -1,7 +1,11 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='https://jingyu198.github.io/jingyu.github.io/images/e3iG-fzihnep3936683.gif'>"
+title: "Deep learning application in sports (Graduate Capstone Project at NUS, in progress)"
+excerpt: "
+<img src='https://jingyu198.github.io/jingyu.github.io/images/demo1.gif'><br/>
+We target to build an intelligent data-driven system to automatically extract match information from tennis broadcast videos, including subtasks like court localization, player action recognition, ball tracking, and game event spotting. Various techniques have been utilized including Computer Vision, Bayesian Estimations, and Camera Calibration, etc.<br/>
+J. S. Dong, K. Jiang, Z. Liu, C. Dong, Z. Hou, R. S. Hundal, <b>J. Guo</b>, and Y. Lin. “Sports Analytics Using Probabilistic Model Checking and Deep Learning” in 2023 27th International Conference on Engineering of Complex Computer Systems (ICECCS).
+"
 collection: portfolio
 ---
-
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Details...
+My contribution: 
