@@ -15,19 +15,3 @@ I got my bachelor's degree from School of Energy and Power Engineering Departmen
 You can find my CV [here](https://jingyu198.github.io/jingyu.github.io/assets/CV.pdf).
 
 **I am looking for a PhD position of Spring/Fall 2024. Feel free to email me for potential opportunities.**
-
-Research
-======
-**Deep learning application in sports (Graduate Capstone Project at NUS, in progress)**
-Advisor: Prof. Jin-Song Dong, School of Computing, NUS
-
-We target to build an intelligent data-driven system to automatically extract match information from tennis broadcast videos, including subtasks like court localization, player action recognition, ball tracking, and game event spotting. Various techniques have been utilized including Computer Vision, Bayesian Estimations, and Camera Calibration, etc.
-
-**Studies on the thermal properties of composite materials (Research Assistant at XJTU)**
-Advisor: Prof. Ya-Ling He, Academician of Chinese Academy of Sciences                                                                                                                                                                                             
-A multiscale numerical method is proposed to investigate the coupled conduction-radiation heat transfer in C/SiC composites, which can significantly reduce the computational time of reconstructing temperature and radiation intensity fields while ensuring the computational accuracy.
-Besides, we investigated 3D convolutional neural networks as a novel approach to predict thermal properties. The networks can learn the mapping from sophisticated material microstructures with phase-property, to effective properties at macro-level.
-
-**Numerical simulation on the aircraft icing process (Undergraduate Capstone Project at XJTU)**
-Advisor: Prof. Ya-Ling He, Academician of Chinese Academy of Sciences                                                                                                                                                                                             
-Numerically simulated the aircraft icing process, analyzed the effects of several important environment factors on the ice shape. Our work provides theoretical support for the safe operation of aircraft.
