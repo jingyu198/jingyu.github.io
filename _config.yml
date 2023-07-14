@@ -85,7 +85,7 @@ author:
   bio              : "Keep exploring..."
   location         : "Singapore"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "mailto:guojingyu@u.nus.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
