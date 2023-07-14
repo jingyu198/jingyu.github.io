@@ -11,7 +11,7 @@ title                    : "Jingyu Guo's Personal Homepage"
 title_separator          : "-"
 name                     : &name "Jingyu Guo"
 description              : &description "personal description"
-url                      : https://jingyu.github.io
+url                      : https://jingyu198.github.io/jingyu.github.io/
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jingyu198/jingyu.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
