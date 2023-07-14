@@ -22,7 +22,7 @@ We target to build an intelligent data-driven system to automatically extract ma
 
 Studies on the thermal properties of composite materials (Research Assistant)
 ------
-<img src='https://jingyu198.github.io/jingyu.github.io/images/img1.png' style='width: 460px; height: 230px;'>         <img src='https://jingyu198.github.io/jingyu.github.io/images/img2.png' style='width: 420px; height: 210px;'>
+<img src='https://jingyu198.github.io/jingyu.github.io/images/img1.png' style='width: 460px; height: 230px;'>         <img src='https://jingyu198.github.io/jingyu.github.io/images/img2.png' style='width: 440px; height: 220px;'>
 
 A multiscale numerical method is proposed to investigate the coupled conduction radiation-heat transfer in C/SiC composites, which can significantly reduce the computational time of reconstructing temperature and radiation intensity fields while ensuring the computational accuracy.
 
