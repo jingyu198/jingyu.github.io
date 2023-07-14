@@ -14,6 +14,7 @@ I got my bachelor's degree from School of Energy and Power Engineering Departmen
 
 You can find my CV [here](../assets/CV.pdf).
 
+**I am looking for a PhD position of Spring/Fall 2024. Feel free to email me for potential opportunities.**
 
 Research
 ======
