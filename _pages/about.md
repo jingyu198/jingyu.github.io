@@ -12,7 +12,7 @@ Hello! My name is Jingyu Guo (郭靖宇). I'm a second year master student in Sc
 
 I got my bachelor's degree from School of Energy and Power Engineering Department, [Xi'an Jiaotong University](http://en.xjtu.edu.cn/) (XJTU), where I worked with Prof. [Ya-Ling He](https://scholar.google.com/citations?user=lCIq-10AAAAJ&hl=zh-CN&oi=ao).
 
-You can find my CV [here](../files/CV-Jingyu Guo.pdf).
+You can find my CV [here](../files/CV.pdf).
 
 
 Research
