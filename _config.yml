@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Jingyu Guo"
-  avatar           : "../images/photo.png"
+  avatar           : "photo.png"
   bio              : "Keep exploring..."
   location         : "Singapore"
   employer         :
