@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jingyu Guo's Personal Homepage"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Jingyu Guo"
 description              : &description "personal description"
