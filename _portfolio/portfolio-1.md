@@ -1,5 +1,5 @@
 ---
-title: "*Travels"
+title: "Travels"
 excerpt: ""
 collection: portfolio
 ---
