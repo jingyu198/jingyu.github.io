@@ -18,6 +18,7 @@ We target to build an intelligent data-driven system to automatically extract ma
 [J. S. Dong, K. Jiang, Z. Liu, C. Dong, Z. Hou, R. S. Hundal, <b>J. Guo</b>, and Y. Lin. “Sports Analytics Using Probabilistic Model Checking and Deep Learning” in 2023 27th International Conference on Engineering of Complex Computer Systems (ICECCS).](https://jingyu198.github.io/jingyu.github.io/files/paper1.pdf)
 
 
+
 Studies on the thermal properties of composite materials (Research Assistant)
 ------
 <img src='https://jingyu198.github.io/jingyu.github.io/images/img1.png' style='width: 450px; height: 250px;'>         <img src='https://jingyu198.github.io/jingyu.github.io/images/img2.png' style='width: 375px; height: 250px;'>
@@ -27,6 +28,7 @@ A multiscale numerical method is proposed to investigate the coupled conduction 
 Investigate 3D convolutional neural networks as a novel approach to predict thermal properties. The networks learn the mapping from sophisticated material microstructures with phase-property, to effective properties at macro-level.
 
 [Tong Z X, Li M J*, Yu Y S, Guo J Y. “A Multiscale Method for Coupled Steady-State Heat Conduction and Radiative Transfer Equations in Composite Materials”, Journal of Heat Transfer, 2021.](https://jingyu198.github.io/jingyu.github.io/files/paper2.pdf)
+
 
 
 Numerical simulation on the aircraft icing process (Undergraduate Capstone Project)
