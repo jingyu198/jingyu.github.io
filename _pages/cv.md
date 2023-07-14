@@ -24,7 +24,7 @@ Studies on the thermal properties of composite materials (Research Assistant)
 ------
 <img src='https://jingyu198.github.io/jingyu.github.io/images/img1.png' style='width: 460px; height: 230px;'>         <img src='https://jingyu198.github.io/jingyu.github.io/images/img2.png' style='width: 440px; height: 220px;'>
 
-A multiscale numerical method is proposed to investigate the coupled conduction radiation-heat transfer in C/SiC composites, which can significantly reduce the computational time of reconstructing temperature and radiation intensity fields while ensuring the computational accuracy.
+A multiscale numerical method is proposed to investigate the coupled conduction-radiation heat transfer in C/SiC composites, which can significantly reduce the computational time of reconstructing temperature and radiation intensity fields while ensuring the computational accuracy.
 
 [Tong Z X, Li M J*, Yu Y S, <b>Guo J Y</b>. “A Multiscale Method for Coupled Steady-State Heat Conduction and Radiative Transfer Equations in Composite Materials”, Journal of Heat Transfer, 2021.](https://jingyu198.github.io/jingyu.github.io/files/paper2.pdf)
 
