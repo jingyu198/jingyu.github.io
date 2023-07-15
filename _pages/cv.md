@@ -28,6 +28,8 @@ A multiscale numerical method is proposed to investigate the coupled conduction-
 
 [Tong Z X, Li M J*, Yu Y S, <b>Guo J Y</b>. “A Multiscale Method for Coupled Steady-State Heat Conduction and Radiative Transfer Equations in Composite Materials”, Journal of Heat Transfer, 2021.](https://jingyu198.github.io/jingyu.github.io/files/paper2.pdf)
 
+[Manuscript: <b>Guo J Y</b>, Tong Z X*, Li M J, Yu Y S. “Numerical prediction for effective thermal conductivity of C/SiC composites by using a multiscale numerical method”.](https://jingyu198.github.io/jingyu.github.io/files/paper3.pdf)
+
 <img src='https://jingyu198.github.io/jingyu.github.io/images/img3.png' style='width: 500px; height: 250px;'>         <img src='https://jingyu198.github.io/jingyu.github.io/images/img4.png' style='width: 420px; height: 220px;'>
 
 Investigate 3D convolutional neural networks as a novel approach to predict thermal properties. The networks learn the mapping from sophisticated material microstructures with phase-property, to effective properties at macro-level.
