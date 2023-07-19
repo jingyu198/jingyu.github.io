@@ -12,4 +12,4 @@ Hello! My name is Jingyu Guo (郭靖宇). I'm a second year master student in Sc
 
 I got my bachelor's degree from School of Energy and Power Engineering, [Xi'an Jiaotong University](http://en.xjtu.edu.cn/) (XJTU), where I worked with Prof. [Ya-Ling He](https://scholar.google.com/citations?user=lCIq-10AAAAJ&hl=zh-CN&oi=ao).
 
-**I am looking for a PhD position of Spring/Fall 2024. Feel free to email me for potential opportunities.**
+**I am looking for a PhD position of Spring/Fall 2024 intake. Please feel free to [contact](guojingyu@u.uns.edu) me for potential opportunities.**
