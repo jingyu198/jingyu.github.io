@@ -15,9 +15,9 @@ Deep learning application in sports (Graduate Capstone Project at NUS, in progre
 
 We target to build an intelligent data-driven system to automatically extract match information from tennis broadcast videos, including subtasks like court localization, player action recognition, ball tracking, and game event spotting. Various techniques have been utilized including Computer Vision, Bayesian Estimations, and Camera Calibration, etc.
 
-[J. S. Dong, K. Jiang, Z. Liu, C. Dong, Z. Hou, R. S. Hundal, <b>J. Guo</b>, and Y. Lin. “Sports Analytics Using Probabilistic Model Checking and Deep Learning” in 2023 27th International Conference on Engineering of Complex Computer Systems (ICECCS).](https://jingyu198.github.io/jingyu.github.io/files/paper1.pdf)
+[Z. Liu, <b>J. Guo<b>, M. Wang, R. Wang, K. Jiang, J. S. Dong. “Recognizing a Sequence of Events from Tennis Video Clips: Addressing Timestep Identiﬁcation and Subtle Class Differences” in 2023 1st International Sports Analytics Conference and Exhibition (ISACE), pre-conference workshop.](https://jingyu198.github.io/jingyu.github.io/files/paper1.pdf)
 
-
+[J. S. Dong, K. Jiang, Z. Liu, C. Dong, Z. Hou, R. S. Hundal, <b>J. Guo</b>, and Y. Lin. “Sports Analytics Using Probabilistic Model Checking and Deep Learning” in 2023 27th International Conference on Engineering of Complex Computer Systems (ICECCS).](https://jingyu198.github.io/jingyu.github.io/files/paper4.pdf)
 
 
 Studies on the thermal properties of composite materials (Research Assistant at XJTU)
