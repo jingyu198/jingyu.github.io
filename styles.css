@@ -594,14 +594,26 @@ header p {
   visibility: visible;
 }
 
+.gallery-stage {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85em;
+  max-height: calc(100vh - 5em);
+  max-width: min(86vw, 1100px);
+  min-height: 0;
+  width: 100%;
+}
+
 .gallery-frame {
   align-items: center;
   display: flex;
   flex-direction: column;
+  flex: 1 1 auto;
   gap: 1em;
-  height: 100%;
+  min-height: 0;
   justify-content: center;
-  max-width: min(86vw, 1100px);
+  max-width: 100%;
   width: 100%;
 }
 
@@ -610,7 +622,7 @@ header p {
   border-radius: 0.35em;
   box-shadow: 0 1em 3em rgba(0, 0, 0, 0.5);
   display: block;
-  max-height: calc(100vh - 8em);
+  max-height: calc(100vh - 13em);
   max-width: 100%;
   object-fit: contain;
 }
@@ -629,6 +641,46 @@ header p {
 .gallery-frame figcaption span:last-child {
   color: rgba(255, 255, 255, 0.7);
   margin-left: 1em;
+}
+
+.gallery-thumbnails {
+  display: flex;
+  gap: 0.5em;
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 0.15em 0 0.45em;
+  scrollbar-color: rgba(255, 255, 255, 0.45) transparent;
+  scrollbar-width: thin;
+}
+
+.gallery-thumbnail {
+  appearance: none;
+  background: transparent;
+  border: solid 2px transparent;
+  border-radius: 0.35em;
+  cursor: pointer;
+  flex: 0 0 auto;
+  height: 3.7em;
+  opacity: 0.58;
+  overflow: hidden;
+  padding: 0;
+  transition: border-color 0.2s ease-in-out, opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+  width: 5em;
+}
+
+.gallery-thumbnail img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.gallery-thumbnail:hover,
+.gallery-thumbnail:focus-visible,
+.gallery-thumbnail.is-active {
+  border-color: #fff;
+  opacity: 1;
+  transform: translateY(-0.08em);
 }
 
 .gallery-close,
@@ -1036,16 +1088,26 @@ header p {
     padding: 4em 1em 5em 1em;
   }
 
+  .gallery-stage {
+    max-height: calc(100vh - 8em);
+    max-width: 100%;
+  }
+
   .gallery-frame {
     max-width: 100%;
   }
 
   .gallery-frame img {
-    max-height: calc(100vh - 10em);
+    max-height: calc(100vh - 15em);
   }
 
   .gallery-frame figcaption {
     width: 100%;
+  }
+
+  .gallery-thumbnail {
+    height: 3.15em;
+    width: 4.2em;
   }
 
   .gallery-close {
