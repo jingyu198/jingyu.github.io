@@ -307,23 +307,23 @@
       const photoBase = "assets/gallery";
       const blankImage = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
       const albums = [
-        { slug: "paintings", title: "My paintings", count: 4 },
-        { slug: "beijing", title: "Beijing (北京)", count: 8 },
-        { slug: "huashan", title: "Mount Hua (华山)", count: 5 },
-        { slug: "melbourne", title: "Melbourne (墨尔本)", count: 26 },
-        { slug: "wuyuan", title: "Wuyuan (婺源)", count: 11 },
-        { slug: "zhangjiajie", title: "Zhangjiajie (张家界)", count: 29 },
-        { slug: "wuxi-yuantouzhu", title: "Wuxi Yuantouzhu (无锡鼋头渚)", count: 9 },
-        { slug: "hangzhou", title: "Hangzhou (杭州)", count: 40 },
-        { slug: "guilin", title: "Guilin (桂林)", count: 12 },
-        { slug: "wugongshan", title: "Wugong Mountain (武功山)", count: 24 },
-        { slug: "zhejiang", title: "Zhejiang (浙江)", count: 17 },
-        { slug: "daocheng-yading", title: "Daocheng Yading (稻城亚丁)", count: 22 },
-        { slug: "shangri-la", title: "Shangri-La (香格里拉)", count: 15 },
-        { slug: "hong-kong", title: "Hong Kong (香港)", count: 5 },
-        { slug: "huangshan", title: "Mount Huangshan (黄山)", count: 40 },
-        { slug: "travels", title: "Other", count: 21 },
-        { slug: "friends", title: "Me and my friends", count: 9 }
+        { slug: "paintings", title: "My paintings", count: 4, cover: 2 },
+        { slug: "beijing", title: "Beijing (北京)", count: 8, cover: 7 },
+        { slug: "huashan", title: "Mount Hua (华山)", count: 5, cover: 5 },
+        { slug: "melbourne", title: "Melbourne (墨尔本)", count: 26, cover: 6 },
+        { slug: "wuyuan", title: "Wuyuan (婺源)", count: 11, cover: 5 },
+        { slug: "zhangjiajie", title: "Zhangjiajie (张家界)", count: 29, cover: 5 },
+        { slug: "wuxi-yuantouzhu", title: "Wuxi Yuantouzhu (无锡鼋头渚)", count: 9, cover: 1 },
+        { slug: "hangzhou", title: "Hangzhou (杭州)", count: 40, cover: 1 },
+        { slug: "guilin", title: "Guilin (桂林)", count: 12, cover: 4 },
+        { slug: "wugongshan", title: "Wugong Mountain (武功山)", count: 24, cover: 6 },
+        { slug: "zhejiang", title: "Zhejiang (浙江)", count: 17, cover: 1 },
+        { slug: "daocheng-yading", title: "Daocheng Yading (稻城亚丁)", count: 22, cover: 16 },
+        { slug: "shangri-la", title: "Shangri-La (香格里拉)", count: 15, cover: 7 },
+        { slug: "hong-kong", title: "Hong Kong (香港)", count: 5, cover: 3 },
+        { slug: "huangshan", title: "Mount Huangshan (黄山)", count: 40, cover: 1 },
+        { slug: "travels", title: "Other", count: 21, cover: 16 },
+        { slug: "friends", title: "Me and my friends", count: 9, cover: 9 }
       ];
       const makePhotos = (slug, title, count) =>
         Array.from({ length: count }, (_, i) => i + 1).map((n) => ({
@@ -344,7 +344,7 @@
           (album, index) => `
             <div class="photo-album">
               <a href="#" class="image fit thumb album-card" data-gallery="${album.slug}" data-title="${album.title}" aria-label="Open ${album.title} album">
-                <img src="${photoBase}/${album.slug}/thumbs/1.jpg" alt="${album.title} album cover" ${index > 7 ? 'loading="lazy"' : ""} decoding="async" />
+                <img src="${photoBase}/${album.slug}/thumbs/${album.cover}.jpg" alt="${album.title} album cover" ${index > 7 ? 'loading="lazy"' : ""} decoding="async" />
                 <span class="album-overlay" aria-hidden="true"><span class="album-title">${album.title}</span></span>
               </a>
             </div>
