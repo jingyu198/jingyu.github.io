@@ -23,9 +23,7 @@
 
 .paper-gallery-index li { min-width: 0; }
 .paper-figure-choice {
-  display: flex;
-  align-items: baseline;
-  gap: .44rem;
+  display: block;
   height: 100%;
   padding: .45rem .7rem;
   border: 1px solid var(--line, #cdd5e3);
@@ -35,13 +33,6 @@
   font-size: .91rem;
   line-height: 1.45;
   text-decoration: none;
-}
-.paper-figure-choice span,
-.paper-figure-title span {
-  flex-shrink: 0;
-  color: var(--accent, #464783);
-  font-weight: 650;
-  font-variant-numeric: tabular-nums;
 }
 .paper-figure-choice:hover { border-color: var(--brand-blue, #3d95c3); }
 .paper-figure-choice[aria-current="true"] {
@@ -84,10 +75,8 @@
   font-size: 1.05rem;
   line-height: 1.4;
 }
-.paper-figure-title span { margin-inline-end: .35rem; }
 .paper-figure figcaption p { margin: .35rem 0 .65rem; color: var(--muted, #526079); line-height: 1.65; }
-.paper-figure-sources { display: flex; flex-wrap: wrap; gap: .5rem 1.15rem; }
-.paper-figure-sources a {
+.paper-figure-full {
   color: var(--accent, #464783);
   font-size: .9rem;
   font-weight: 600;

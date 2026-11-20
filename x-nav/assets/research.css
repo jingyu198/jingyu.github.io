@@ -103,20 +103,12 @@
   font-size: .9375rem;
 }
 
-.research-source,
 .research-links a,
 .research-license a {
   color: var(--research-accent);
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: .2em;
-}
-
-.research-source {
-  align-self: flex-start;
-  margin-top: auto;
-  font-size: .9375rem;
-  font-weight: 600;
 }
 
 .research-title {
@@ -162,7 +154,6 @@
 
 .research-code button:hover { background: #e9eaf8; }
 .research-citation :focus-visible,
-.research-source:focus-visible,
 .research-links a:focus-visible,
 .research-license a:focus-visible { outline: 2px solid var(--research-accent); outline-offset: 3px; }
 .research-license { margin: .95rem 0 0; line-height: 1.6; }
@@ -174,23 +165,8 @@
 
 .team-credit { color: var(--ink); background: #fff; }
 .team-layout { padding-block: clamp(1.2rem, 2vw, 1.7rem); }
-.byline-block {
-  display: grid;
-  grid-template-columns: minmax(10rem, .9fr) minmax(0, 4fr);
-  gap: clamp(1rem, 3vw, 2.8rem);
-  align-items: center;
-}
-.lead-institution {
-  padding: .25rem 1rem .25rem 0;
-  border-right: 1px solid var(--line);
-  text-align: center;
-}
-.lead-institution img { margin: 0 auto .6rem; width: min(8.7rem, 82%); }
-.lead-institution figcaption { color: var(--muted); font-size: .85rem; line-height: 1.45; }
-.lead-institution figcaption strong, .lead-institution figcaption span { display: block; }
-.lead-institution figcaption strong { color: var(--ink); font-size: .91rem; font-weight: 600; }
 .team-credit h2 { margin: 0 0 .36rem; color: var(--accent); font-size: .92rem; font-weight: 650; }
-.research-authors, .university-credits { margin: 0; padding: 0; list-style: none; }
+.research-authors, .institution-logos { margin: 0; padding: 0; list-style: none; }
 .research-authors { display: flex; flex-wrap: wrap; gap: .22rem 1rem; font-size: clamp(1.02rem, 1.25vw, 1.17rem); font-weight: 570; line-height: 1.5; }
 .research-authors li { white-space: nowrap; }
 .research-authors a { color: var(--ink); text-decoration: none; }
@@ -198,39 +174,36 @@
 .team-credit sup { margin-inline: .15em; color: var(--accent); font-size: .7em; line-height: 0; }
 .research-roles { display: flex; flex-wrap: wrap; gap: .1rem .85rem; margin-top: .5rem; color: var(--muted); font-size: .86rem; }
 .research-roles span { white-space: nowrap; }
-.university-credits { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: .65rem; margin-top: 1.2rem; padding-top: 1.1rem; border-top: 1px solid var(--line); }
-.school-credit { text-align: center; min-width: 0; padding: .3rem .4rem; border-radius: .3rem; }
-.school-mark { height: 3.65rem; margin-bottom: .56rem; display: grid; place-items: center; }
-.school-mark img { width: auto; height: auto; max-width: min(90%, 8.65rem); max-height: 3.65rem; }
-.school-credit strong, .school-members { display: block; line-height: 1.35; }
-.school-credit strong { color: var(--ink); font-weight: 600; font-size: .94rem; text-wrap: balance; }
-.school-members { margin-top: .16rem; color: var(--muted); font-size: .89rem; }
-.school-credit:target, .lead-institution:target { outline: 2px solid var(--accent); outline-offset: 2px; }
+.institution-logos {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  align-items: center;
+  gap: clamp(.35rem, 2vw, 1.75rem);
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+.institution-logos li { display: grid; min-width: 0; height: 4.05rem; place-items: center; border-radius: .25rem; }
+.institution-logos img { max-width: min(95%, 9rem); max-height: 3.75rem; width: auto; height: auto; }
+.institution-logos li:target { outline: 2px solid var(--accent); outline-offset: 2px; }
 .field-trials { margin-top: 2rem; }
 .field-trials > h3 { margin: 0 0 1rem; font-size: clamp(1.3rem,2.1vw,1.8rem); line-height: 1.3; }
 .field-trial-pair { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: clamp(1rem,2.4vw,1.8rem); align-items: start; }
-.research-panel .research-source { margin-top: 0; }
 .research-panel .paper-figure { margin-top: 1.2rem; }
 .future-figure { margin-top: 1.5rem; }
 .future-figure summary { color: var(--accent); font-weight: 600; cursor: pointer; }
 .future-figure[open] summary { margin-bottom: 1rem; }
 @media (max-width: 55rem) {
-  .university-credits { grid-template-columns: repeat(3,minmax(0,1fr)); row-gap: .75rem; }
+  .institution-logos { gap: .3rem; }
 }
 @media (max-width: 43rem) {
   .team-layout { padding-block: .95rem 1.2rem; }
-  .byline-block { grid-template-columns: 1fr; gap: .65rem; }
-  .lead-institution { display: flex; gap: .8rem; align-items: center; border-right: 0; text-align: left; padding: 0; }
-  .lead-institution img { width: 5.65rem; margin: 0; }
   .team-credit h2 { margin-bottom: .22rem; }
   .research-authors { column-gap: .72rem; font-size: 1rem; line-height: 1.42; }
   .research-roles { margin-top: .42rem; }
-  .university-credits { margin-top: .8rem; padding-top: .65rem; gap: .75rem .15rem; }
-  .school-mark, .school-mark img { max-height: 2.9rem; }
-  .school-credit { padding: .2rem; }
-  .school-credit strong, .school-members { font-size: .84rem; }
+  .institution-logos { grid-template-columns: repeat(12, minmax(0,1fr)); margin-top: .8rem; padding-top: .75rem; gap: .65rem .35rem; }
+  .institution-logos li { grid-column: span 3; height: 3rem; }
+  .institution-logos li:nth-child(-n+3) { grid-column: span 4; }
+  .institution-logos img { max-height: 3rem; }
   .field-trial-pair { grid-template-columns: 1fr; }
-}
-@media (max-width: 23rem) {
-  .university-credits { grid-template-columns: repeat(2,minmax(0,1fr)); }
 }
