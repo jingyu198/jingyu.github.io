@@ -1,13 +1,13 @@
 #results,
 #paper {
-  --research-ink: #101f2c;
-  --research-muted: #45586a;
-  --research-accent: #086967;
-  --research-line: #c9d8dc;
+  --research-ink: var(--ink);
+  --research-muted: var(--muted);
+  --research-accent: var(--accent);
+  --research-line: var(--line);
   color: var(--research-ink);
 }
 
-#results { background: #f2f6f7; }
+#results { background: #f3f5fb; }
 #paper { background: #fff; }
 
 .research-grid {
@@ -65,7 +65,7 @@
   grid-column: 1 / -1;
   display: block;
   height: .55rem;
-  background: #edf2f3;
+  background: #f6f7fc;
   border-radius: .15rem;
   overflow: hidden;
 }
@@ -75,8 +75,8 @@
   height: 100%;
 }
 
-.research-before { width: 40%; background: #6f8791; }
-.research-after { width: 80%; background: var(--research-accent); }
+.research-before { width: 40%; background: #748ba7; }
+.research-after { width: 80%; background: linear-gradient(90deg, var(--brand-blue), var(--brand-purple)); }
 
 .research-table {
   width: 100%;
@@ -167,7 +167,7 @@
   padding: .95rem 1.1rem;
   border: 1px solid var(--research-line);
   border-radius: .5rem;
-  background: #f6f9f9;
+  background: #f7f8fc;
 }
 
 .research-citation summary { cursor: pointer; font-weight: 600; }
@@ -186,7 +186,7 @@
   cursor: pointer;
 }
 
-.research-code button:hover { background: #e7f3f1; }
+.research-code button:hover { background: #e9eaf8; }
 .research-citation :focus-visible,
 .research-source:focus-visible,
 .research-links a:focus-visible,
@@ -197,4 +197,76 @@
   .research-grid { grid-template-columns: minmax(0, 1fr); }
   .research-panel { padding: 1.2rem; }
   .research-authors { column-gap: .85rem; }
+}
+
+.team-credit {
+  --research-accent: var(--accent);
+  --research-muted: var(--muted);
+  color: var(--ink);
+  background: #fff;
+}
+.team-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(8.5rem, 13vw, 11.5rem);
+  grid-template-areas: "heading seal" "authors seal" "roles seal" "affiliations seal";
+  gap: .45rem clamp(1.4rem, 3.2vw, 3rem);
+  align-items: start;
+  padding-block: clamp(1.25rem, 2.1vw, 1.85rem);
+}
+.team-credit h2 {
+  grid-area: heading;
+  margin: 0 0 .15rem;
+  color: var(--accent);
+  font-size: .92rem;
+  font-weight: 650;
+  line-height: 1.3;
+}
+.team-credit .research-authors {
+  grid-area: authors;
+  gap: .22rem 1rem;
+  font-size: clamp(1.02rem, 1.26vw, 1.17rem);
+  font-weight: 570;
+  line-height: 1.5;
+}
+.research-authors li { white-space: nowrap; }
+.team-credit .research-roles { grid-area: roles; margin: .06rem 0 .35rem; font-size: .86rem; }
+.team-credit .research-affiliations {
+  grid-area: affiliations;
+  gap: .14rem .85rem;
+  color: var(--muted);
+  font-size: .9rem;
+  line-height: 1.5;
+}
+.team-seal {
+  grid-area: seal;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .55rem;
+  border-inline-start: 1px solid var(--line);
+  padding-inline-start: 1.1rem;
+}
+.team-seal img { width: clamp(5rem, 7vw, 6.8rem); height: auto; }
+.team-seal figcaption { color: var(--muted); text-align: center; line-height: 1.35; }
+.team-seal figcaption strong { display: block; color: var(--ink); font-weight: 620; font-size: .99rem; }
+.team-seal figcaption span { font-size: .88rem; }
+.team-seal sup { margin-inline-start: .12em; color: var(--accent); font-size: .72em; }
+@media (max-width: 43rem) {
+  .team-layout {
+    grid-template-columns: 1fr auto;
+    grid-template-areas: "heading seal" "authors authors" "roles roles" "affiliations affiliations";
+    padding-block: .9rem 1.2rem;
+    gap: .6rem;
+  }
+  .team-credit h2 { align-self: center; margin: 0; }
+  .team-seal { flex-direction: row; gap: .45rem; padding: 0; border: 0; }
+  .team-seal img { width: 3.2rem; }
+  .team-seal figcaption { text-align: start; }
+  .team-seal figcaption strong { font-size: .9rem; }
+  .team-seal figcaption span { font-size: .8rem; }
+  .team-credit .research-authors { column-gap: .72rem; font-size: 1rem; line-height: 1.42; }
+  .team-credit .research-roles { margin: 0; }
+  .team-credit .research-affiliations { row-gap: .22rem; }
 }

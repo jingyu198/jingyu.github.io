@@ -1,24 +1,37 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>X-Nav | 人形机器人的室内外长程导航</title><meta name="description" content="灵犀 X2 如何从办公楼大堂走到邻楼罗森？通过四段演示和技术报告，了解 X-Nav 的数据引擎、MELIOR 和 X-Navarch。"><meta name="theme-color" content="#101d24">
+<title>X-Nav | 人形机器人的室内外长程导航</title><meta name="description" content="灵犀 X2 如何从办公楼大堂走到邻楼罗森？通过四段演示和技术报告，了解 X-Nav 的数据引擎、MELIOR 和 X-Navarch。"><meta name="theme-color" content="#182443">
 <meta property="og:title" content="X-Nav | 人形机器人的室内外长程导航"><meta property="og:description" content="灵犀 X2 如何从办公楼大堂走到邻楼罗森？通过四段演示和技术报告，了解 X-Nav 的数据引擎、MELIOR 和 X-Navarch。"><meta property="og:type" content="website">
 <meta property="og:url" content="https://jingyu198.github.io/jingyu.github.io/x-nav/"><meta property="og:image" content="https://jingyu198.github.io/jingyu.github.io/x-nav/assets/media/hero.jpg">
 <link rel="canonical" href="https://jingyu198.github.io/jingyu.github.io/x-nav/"><link rel="alternate" hreflang="zh-CN" href="https://jingyu198.github.io/jingyu.github.io/x-nav/"><link rel="alternate" hreflang="en" href="https://jingyu198.github.io/jingyu.github.io/x-nav/en/">
-<link rel="icon" type="image/png" href="assets/icon.png"><link rel="preload" href="assets/media/hero.jpg" as="image">
-<link rel="stylesheet" href="assets/site.css"><link rel="stylesheet" href="assets/research.css"><script src="assets/site.js" defer></script></head>
+<link rel="icon" type="image/png" href="assets/icon.png?v=2"><link rel="preload" href="assets/media/hero.jpg" as="image">
+<link rel="stylesheet" href="assets/site.css?v=2"><link rel="stylesheet" href="assets/research.css?v=2"><script src="assets/site.js" defer></script></head>
 <body><a class="skip" href="#main">跳到正文</a>
 <header class="mast"><div class="wrap mast-inner"><a class="brand" href="index.html" aria-label="X-Nav 首页"><span class="route-mark" aria-hidden="true"><i></i><i></i><i></i></span><b>X-Nav</b></a>
-<span class="lab">AgiBot X-Lab</span><nav class="main-nav" aria-label="页面导航"><a href="#films">演示</a><a href="#system">系统</a><a href="#results">实验</a><a href="#paper">论文</a></nav>
+<span class="lab">AgiBot X-Lab</span><nav class="main-nav" aria-label="页面导航"><a href="#team">团队</a><a href="#films">演示</a><a href="#system">系统</a><a href="#results">实验</a><a href="#paper">论文</a></nav>
 <nav class="languages" aria-label="语言"><span lang="zh-CN" aria-current="page">中文</span><a class="other-language" href="en/index.html" hreflang="en" lang="en">EN</a></nav>
 <button class="menu" aria-expanded="false" aria-controls="small-nav" aria-label="导航菜单"><i></i><i></i></button></div>
-<nav id="small-nav" hidden aria-label="移动端导航"><a href="#films">演示</a><a href="#system">系统</a><a href="#results">实验</a><a href="#paper">论文</a></nav></header>
+<nav id="small-nav" hidden aria-label="移动端导航"><a href="#team">团队</a><a href="#films">演示</a><a href="#system">系统</a><a href="#results">实验</a><a href="#paper">论文</a></nav></header>
 <main id="main"><section class="hero" aria-labelledby="hero-title"><div class="hero-photo"></div><div class="hero-shade"></div>
-<div class="wrap hero-inner"><div class="hero-copy"><div class="hero-kicker"><span></span>灵犀 X2<i>/</i>视觉语言导航</div>
+<div class="wrap hero-inner"><div class="hero-copy"><div class="hero-kicker"><span aria-hidden="true"></span><b>灵犀 X2</b><i>/</i><b>视觉语言导航</b></div>
 <h1 id="hero-title" lang="en">X-Nav</h1><h2>人形机器人的室内外长程导航</h2>
-<p>从办公楼大堂出发，穿过玻璃门，在车流前停步，最后抵达邻楼的罗森。一条中途更新的语言指令，带灵犀 X2 走完这段路。</p>
+<p><span class="mission-intro">从办公楼大堂出发，穿过玻璃门，在车流前停步，最后抵达邻楼的罗森。一条中途更新的语言指令，带灵犀 X2 走完这段路。</span><span class="mission-intro-short">灵犀 X2 中途接到新目的地，穿过大堂与玻璃门，抵达邻楼的罗森。</span></p>
 <div class="hero-actions"><a class="hero-button primary" href="#films"><i class="play-symbol" aria-hidden="true"></i>观看实机演示</a>
 <a class="hero-button secondary" href="https://arxiv.org/abs/2611.17598"><i class="paper-symbol" aria-hidden="true"></i>阅读论文</a></div></div></div>
 <div class="image-tag"><i></i>灵犀 X2 · 办公楼大堂</div></section>
+
+<section class="team-credit" id="team" aria-labelledby="team-title">
+  <div class="wrap team-layout">
+    <h2 id="team-title">研究团队</h2>
+    <ul class="research-authors" lang="en" aria-label="论文作者，按署名顺序"><li>Jiaxin Huang<sup>1,2,*,†</sup></li> <li>Chengxing Lin<sup>1,3,*</sup></li> <li>Xiaoyu Luo<sup>1,4,*</sup></li> <li>Sirui Chen<sup>1,5,*</sup></li> <li>Jingyu Guo<sup>1,6,*</sup></li> <li>Aolin Li<sup>1,7,*</sup></li> <li>Kairui Chen<sup>1</sup></li> <li>Rui Zhen<sup>1</sup></li> <li>Cheng Wen<sup>1</sup></li> <li>Kerui Gu<sup>1</sup></li> <li>Shunyao Wang<sup>1</sup></li> <li>Zhihui Peng<sup>1</sup></li> <li>Shaoli Huang<sup>1,✉</sup></li></ul>
+    <p class="research-roles">* 同等贡献　 † 项目负责人　 ✉ 通讯作者</p>
+    <ol class="research-affiliations" aria-label="作者单位"><li><sup>1</sup>AgiBot X-Lab (Boson Lab)</li> <li><sup>2</sup>穆罕默德·本·扎耶德人工智能大学</li> <li><sup>3</sup>电子科技大学</li> <li><sup>4</sup>澳门大学</li> <li><sup>5</sup>南洋理工大学</li> <li><sup>6</sup>墨尔本大学</li> <li><sup>7</sup>武汉大学</li></ol>
+    <figure class="team-seal">
+      <img src="assets/affiliations/wuhan-university.png" width="1796" height="1795" alt="武汉大学校徽">
+      <figcaption><strong>武汉大学</strong><span lang="en">Aolin Li<sup>7</sup></span></figcaption>
+    </figure>
+  </div>
+</section>
 <section class="mission-strip" aria-label="MELIOR-A 实机任务记录"><div class="wrap strip-inner"><div class="run-stat">
 <span class="kicker">MELIOR-A 实机行程</span><div class="run-distance">96.6 <small>m</small></div><span class="run-time">用时 3 分 24 秒</span></div>
 <div class="route-line"><div class="route-heading">按路线节点查看回放</div><ol><li><a class="event" href="?film=demo-extended&amp;t=0#films" data-time="0"><span class="event-distance">0.0 m</span><span class="event-line"></span><span>大堂出发</span></a></li><li><a class="event" href="?film=demo-extended&amp;t=20.4#films" data-time="20.4"><span class="event-distance">9.1 m</span><span class="event-line"></span><span>更改目的地</span></a></li><li><a class="event" href="?film=demo-extended&amp;t=68#films" data-time="68"><span class="event-distance">34.2 m</span><span class="event-line"></span><span>穿过玻璃门</span></a></li><li><a class="event" href="?film=demo-extended&amp;t=199.8#films" data-time="199.8"><span class="event-distance">96.6 m</span><span class="event-line"></span><span>抵达罗森</span></a></li></ol></div></div></section>
@@ -77,11 +90,8 @@
 <section id="paper" class="section" aria-labelledby="research-paper-heading">
   <div class="wrap">
     <p class="kicker">arXiv · cs.RO · 2026</p>
-    <h2 id="research-paper-heading">论文与研究团队</h2>
+    <h2 id="research-paper-heading">论文与引用</h2>
     <h3 class="research-title" lang="en">X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot</h3>
-    <ul class="research-authors" aria-label="作者"><li>Jiaxin Huang<sup>1,2,*,†</sup></li> <li>Chengxing Lin<sup>1,3,*</sup></li> <li>Xiaoyu Luo<sup>1,4,*</sup></li> <li>Sirui Chen<sup>1,5,*</sup></li> <li>Jingyu Guo<sup>1,6,*</sup></li> <li>Aolin Li<sup>1,7,*</sup></li> <li>Kairui Chen<sup>1</sup></li> <li>Rui Zhen<sup>1</sup></li> <li>Cheng Wen<sup>1</sup></li> <li>Kerui Gu<sup>1</sup></li> <li>Shunyao Wang<sup>1</sup></li> <li>Zhihui Peng<sup>1</sup></li> <li>Shaoli Huang<sup>1,‡</sup></li></ul>
-    <p class="research-roles">* 同等贡献　 † 项目负责人　 ‡ 通讯作者</p>
-    <ol class="research-affiliations" aria-label="作者单位"><li><sup>1</sup>AgiBot X-Lab (Boson Lab)</li> <li><sup>2</sup>穆罕默德·本·扎耶德人工智能大学</li> <li><sup>3</sup>电子科技大学</li> <li><sup>4</sup>澳门大学</li> <li><sup>5</sup>南洋理工大学</li> <li><sup>6</sup>墨尔本大学</li> <li><sup>7</sup>武汉大学</li></ol>
     <div class="research-links">
       <a href="https://arxiv.org/abs/2611.17598">arXiv:2611.17598</a>
       <a href="https://arxiv.org/pdf/2611.17598v1">阅读 PDF</a>
