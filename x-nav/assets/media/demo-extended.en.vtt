@@ -1,0 +1,37 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.000
+This offline replay aligns the robot footage, local goals, route trace and scene notes.
+
+00:00:09.000 --> 00:00:16.000
+The initial destination is the vending machine to the left of the white lockers.
+
+00:00:20.400 --> 00:00:24.600
+The user changes the destination from the vending machine to Lawson.
+
+00:00:25.000 --> 00:00:34.000
+X2 turns toward the lobby corridor. Its local goal appears in the top-right camera view.
+
+00:00:52.000 --> 00:01:00.000
+The lower-left map traces the route and displays distance and speed.
+
+00:01:08.000 --> 00:01:16.000
+X2 approaches the glass doors and leaves the lobby.
+
+00:01:22.000 --> 00:01:29.000
+Outside, X2 turns right and follows the walkway toward the building that houses Lawson.
+
+00:02:00.000 --> 00:02:06.000
+X2 approaches a crossing used by pedestrians and cars.
+
+00:02:19.500 --> 00:02:26.000
+The local-goal panel displays “Stop” as a car passes in front of X2.
+
+00:02:30.000 --> 00:02:37.000
+X2 resumes walking, extending the recorded route.
+
+00:03:00.000 --> 00:03:07.000
+The Lawson sign enters the camera view and X2 turns toward the entrance.
+
+00:03:19.800 --> 00:03:23.900
+X2 stops at the Lawson entrance. The replay shows 96.6 m traveled.

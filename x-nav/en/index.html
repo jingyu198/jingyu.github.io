@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>X-Nav | Long-horizon indoor-to-outdoor humanoid navigation</title><meta name="description" content="Follow the Lingxi X2 from an office lobby to a Lawson store. Explore four films, the X-Nav data engine, MELIOR navigation models and the X-Navarch workflow."><meta name="theme-color" content="#101d24">
+<meta property="og:title" content="X-Nav | Long-horizon indoor-to-outdoor humanoid navigation"><meta property="og:description" content="Follow the Lingxi X2 from an office lobby to a Lawson store. Explore four films, the X-Nav data engine, MELIOR navigation models and the X-Navarch workflow."><meta property="og:type" content="website">
+<meta property="og:url" content="https://jingyu198.github.io/jingyu.github.io/x-nav/en/"><meta property="og:image" content="https://jingyu198.github.io/jingyu.github.io/x-nav/assets/media/hero.jpg">
+<link rel="canonical" href="https://jingyu198.github.io/jingyu.github.io/x-nav/en/"><link rel="alternate" hreflang="zh-CN" href="https://jingyu198.github.io/jingyu.github.io/x-nav/"><link rel="alternate" hreflang="en" href="https://jingyu198.github.io/jingyu.github.io/x-nav/en/">
+<link rel="icon" type="image/png" href="../assets/icon.png"><link rel="preload" href="../assets/media/hero.jpg" as="image">
+<link rel="stylesheet" href="../assets/site.css"><link rel="stylesheet" href="../assets/research.css"><script src="../assets/site.js" defer></script></head>
+<body><a class="skip" href="#main">Skip to content</a>
+<header class="mast"><div class="wrap mast-inner"><a class="brand" href="index.html" aria-label="X-Nav home"><span class="route-mark" aria-hidden="true"><i></i><i></i><i></i></span><b>X-Nav</b></a>
+<span class="lab">AgiBot X-Lab</span><nav class="main-nav" aria-label="Page navigation"><a href="#films">Films</a><a href="#system">System</a><a href="#results">Results</a><a href="#paper">Paper</a></nav>
+<nav class="languages" aria-label="Language"><a class="other-language" href="../index.html" hreflang="zh-CN" lang="zh-CN">中文</a><span lang="en" aria-current="page">EN</span></nav>
+<button class="menu" aria-expanded="false" aria-controls="small-nav" aria-label="Navigation menu"><i></i><i></i></button></div>
+<nav id="small-nav" hidden aria-label="Mobile navigation"><a href="#films">Films</a><a href="#system">System</a><a href="#results">Results</a><a href="#paper">Paper</a></nav></header>
+<main id="main"><section class="hero" aria-labelledby="hero-title"><div class="hero-photo"></div><div class="hero-shade"></div>
+<div class="wrap hero-inner"><div class="hero-copy"><div class="hero-kicker"><span></span>LINGXI X2<i>/</i>VISION–LANGUAGE NAVIGATION</div>
+<h1 id="hero-title" lang="en">X-Nav</h1><h2>Long-horizon humanoid navigation</h2>
+<p>From an office lobby to a store in the next building. Follow the Lingxi X2 as it takes a new instruction, crosses the glass doors and waits for traffic on its way to Lawson.</p>
+<div class="hero-actions"><a class="hero-button primary" href="#films"><i class="play-symbol" aria-hidden="true"></i>Watch the mission</a>
+<a class="hero-button secondary" href="https://arxiv.org/abs/2611.17598"><i class="paper-symbol" aria-hidden="true"></i>Read the paper</a></div></div></div>
+<div class="image-tag"><i></i>Lingxi X2 · Office lobby</div></section>
+<section class="mission-strip" aria-label="MELIOR-A field run"><div class="wrap strip-inner"><div class="run-stat">
+<span class="kicker">MELIOR-A FIELD RUN</span><div class="run-distance">96.6 <small>m</small></div><span class="run-time">Elapsed time · 3 min 24 s</span></div>
+<div class="route-line"><div class="route-heading">Explore the replay by waypoint</div><ol><li><a class="event" href="?film=demo-extended&amp;t=0#films" data-time="0"><span class="event-distance">0.0 m</span><span class="event-line"></span><span>Lobby start</span></a></li><li><a class="event" href="?film=demo-extended&amp;t=20.4#films" data-time="20.4"><span class="event-distance">9.1 m</span><span class="event-line"></span><span>New destination</span></a></li><li><a class="event" href="?film=demo-extended&amp;t=68#films" data-time="68"><span class="event-distance">34.2 m</span><span class="event-line"></span><span>Glass doors</span></a></li><li><a class="event" href="?film=demo-extended&amp;t=199.8#films" data-time="199.8"><span class="event-distance">96.6 m</span><span class="event-line"></span><span>Lawson entrance</span></a></li></ol></div></div></section>
+<section id="films" class="section films"><div class="wrap"><div class="kicker">FILMS</div><h2>From the lobby to Lawson</h2>
+<div class="cinema"><div class="screen"><video id="film-player" controls playsinline preload="none" poster="../assets/media/demo-overview.jpg" aria-label="The mission film">
+<source src="../assets/media/demo-overview.mp4" type="video/mp4"><track kind="captions" src="../assets/media/demo-overview.en.vtt" srclang="en" label="English scene guide" default><track kind="captions" src="../assets/media/demo-overview.zh.vtt" srclang="zh" label="中文画面说明">
+<a href="../assets/media/demo-overview.mp4">Open MP4</a></video></div><div class="playlist" aria-label="Choose a film"><a class="film-choice" href="../assets/media/demo-overview.mp4" data-film="demo-overview" data-detail="Follow the Lingxi X2 from the lobby to Lawson. The camera stays with the robot as its destination changes and it walks through the glass doors into the street." aria-current="true">
+          <span class="mini-frame"><img src="../assets/media/demo-overview.jpg" width="1280" height="720" loading="lazy" alt=""></span>
+          <span class="film-label"><strong>The mission film</strong><span class="time">01:28</span></span><span class="tiny-play" aria-hidden="true"></span></a><a class="film-choice" href="../assets/media/demo-extended.mp4" data-film="demo-extended" data-detail="An offline replay aligns the robot’s gait, its camera view and local goal, the accumulated path, and scene notes. Watch the stop action coincide with a passing car.">
+          <span class="mini-frame"><img src="../assets/media/demo-extended.jpg" width="1280" height="720" loading="lazy" alt=""></span>
+          <span class="film-label"><strong>Four-view mission replay</strong><span class="time">03:24</span></span><span class="tiny-play" aria-hidden="true"></span></a><a class="film-choice" href="../assets/media/robot-demo.mp4" data-film="robot-demo" data-detail="Start with samples from open-source scenes and a site twin, then see how an instruction becomes a sequence of actions or a local navigation goal.">
+          <span class="mini-frame"><img src="../assets/media/robot-demo.jpg" width="1280" height="720" loading="lazy" alt=""></span>
+          <span class="film-label"><strong>Inside MELIOR</strong><span class="time">00:55</span></span><span class="tiny-play" aria-hidden="true"></span></a><a class="film-choice" href="../assets/media/spatial-weaving.mp4" data-film="spatial-weaving" data-detail="A wireframe sketches the lobby, points fill in its surfaces, and people and robots enter the scene. This concept animation illustrates how a space changes over time.">
+          <span class="mini-frame"><img src="../assets/media/spatial-weaving.jpg" width="1280" height="720" loading="lazy" alt=""></span>
+          <span class="film-label"><strong>Spatial weaving concept film</strong><span class="time">00:16</span></span><span class="tiny-play" aria-hidden="true"></span></a></div></div>
+<p id="film-detail" class="film-detail" aria-live="polite">Follow the Lingxi X2 from the lobby to Lawson. The camera stays with the robot as its destination changes and it walks through the glass doors into the street.</p>
+<details class="route-figure"><summary>View the eight recorded waypoints</summary><figure><a href="../assets/figures/mission-route.webp"><img src="../assets/figures/mission-route.webp" loading="lazy" width="1967" height="1136" alt="Eight frames mark the reroute, door crossing, traffic wait and arrival along the MELIOR-A odometry trace."></a><figcaption>Distances are cumulative odometry readings. <a href="https://arxiv.org/html/2611.17598v1#S7.SS1">Technical report · Fig. 12</a></figcaption></figure></details>
+</div></section>
+<section id="system" class="section system"><div class="wrap"><div class="kicker">SYSTEM DESIGN</div>
+<h2>From training data to a walking robot</h2>
+<div class="stages"><article class="stage"><div class="stage-name">Data engine</div><h3>Three sources, three needs</h3><p>Open-source scenes supply 6.31 million step-level navigation samples. The site’s digital twin lets the model practise returning to a route after a mistake. Recordings on the X2 capture camera sway and the distance it actually walks.</p></article><article class="stage"><div class="stage-name">MELIOR</div><h3>From camera frames to motion</h3><p>Both variants read the instruction and RGB images from the built-in camera. MELIOR-A predicts actions such as stepping forward, turning or stopping. MELIOR-N predicts a local navigation goal.</p></article><article class="stage"><div class="stage-name">X-Navarch</div><h3>From subtasks to the storefront</h3><p>The planner breaks down the instruction and reviews progress at each stop. MELIOR follows the route. MELIOR-X handles the final approach to a named target. Obstacle avoidance guides execution, with LiDAR and odometry supporting target approach and low-level control.</p></article></div>
+<figure class="twin"><a href="../assets/figures/digital-twin.webp"><img src="../assets/figures/digital-twin.webp" width="1987" height="470" loading="lazy" alt="The lobby is reconstructed as a 3D Gaussian splat, then used to generate navigation tasks, training windows and correction data."></a><figcaption><span>The model practises recovery in the lobby twin before deployment in the real lobby.</span><a href="https://arxiv.org/pdf/2611.17598v1#page=8">Technical report · Fig. 6</a></figcaption></figure>
+<div class="obstacle-note"><b>A second field run</b><p>On a second run to the same store, X-Navarch and MELIOR-N negotiated three dynamic obstacles, two static obstacles and two narrow passages. The robot stopped at the storefront. <a href="https://arxiv.org/html/2611.17598v1#S7.SS1">See Fig. 13</a></p></div></div></section>
+
+<section id="results" class="section" aria-labelledby="research-results-heading">
+  <div class="wrap">
+    <p class="kicker">R2R-CE · RxR-CE · X-Nav-Twin</p>
+    <h2 id="research-results-heading">Experimental results</h2>
+    <div class="research-grid">
+      <article class="research-panel research-twin">
+        <h3>Site adaptation in the lobby</h3>
+        <p>In a digital twin of one office lobby, MELIOR-A navigated to vending machines in 100 held-out episodes. The bars show how often it finished within three metres of the goal.</p>
+        <div class="research-bars">
+          <div><span>Reference trajectories</span><strong>40%</strong><i aria-hidden="true" class="research-track"><i class="research-before"></i></i></div>
+          <div><span>With recovery and stopping examples</span><strong>80%</strong><i aria-hidden="true" class="research-track"><i class="research-after"></i></i></div>
+        </div>
+        <p class="research-note">With the tighter one-metre radius, success fell from 28% to 20%.</p>
+        <a class="research-source" href="https://arxiv.org/pdf/2611.17598v1#page=17">Table 3 in the report</a>
+      </article>
+      <article class="research-panel">
+        <h3>Navigation benchmarks</h3>
+        <p>Both MELIOR variants follow instructions using one forward-facing RGB camera. Success rates are measured on the val-unseen splits.</p>
+        <table class="research-table" aria-label="Navigation success rate on val-unseen">
+          <thead><tr><th scope="col">Model</th><th scope="col">R2R-CE</th><th scope="col">RxR-CE</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">MELIOR-A</th><td>66.1%</td><td>64.3%</td></tr>
+            <tr><th scope="row">MELIOR-N</th><td>70.5%</td><td>60.9%</td></tr>
+          </tbody>
+        </table>
+        <p class="research-note">MELIOR-A predicts up to four actions per decision. MELIOR-N predicts one navigation goal.</p>
+        <a class="research-source" href="https://arxiv.org/pdf/2611.17598v1#page=18">Table 4 in the report</a>
+      </article>
+    </div>
+  </div>
+</section>
+<section id="paper" class="section" aria-labelledby="research-paper-heading">
+  <div class="wrap">
+    <p class="kicker">arXiv · cs.RO · 2026</p>
+    <h2 id="research-paper-heading">Paper and team</h2>
+    <h3 class="research-title" lang="en">X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot</h3>
+    <ul class="research-authors" aria-label="Authors"><li>Jiaxin Huang<sup>1,2,*,†</sup></li> <li>Chengxing Lin<sup>1,3,*</sup></li> <li>Xiaoyu Luo<sup>1,4,*</sup></li> <li>Sirui Chen<sup>1,5,*</sup></li> <li>Jingyu Guo<sup>1,6,*</sup></li> <li>Aolin Li<sup>1,7,*</sup></li> <li>Kairui Chen<sup>1</sup></li> <li>Rui Zhen<sup>1</sup></li> <li>Cheng Wen<sup>1</sup></li> <li>Kerui Gu<sup>1</sup></li> <li>Shunyao Wang<sup>1</sup></li> <li>Zhihui Peng<sup>1</sup></li> <li>Shaoli Huang<sup>1,‡</sup></li></ul>
+    <p class="research-roles">* Equal contribution　 † Project lead　 ‡ Corresponding author</p>
+    <ol class="research-affiliations" aria-label="Affiliations"><li><sup>1</sup>AgiBot X-Lab (Boson Lab)</li> <li><sup>2</sup>MBZUAI</li> <li><sup>3</sup>UESTC</li> <li><sup>4</sup>University of Macau</li> <li><sup>5</sup>Nanyang Technological University</li> <li><sup>6</sup>The University of Melbourne</li> <li><sup>7</sup>Wuhan University</li></ol>
+    <div class="research-links">
+      <a href="https://arxiv.org/abs/2611.17598">arXiv:2611.17598</a>
+      <a href="https://arxiv.org/pdf/2611.17598v1">Read the PDF</a>
+    </div>
+    <details class="research-citation">
+      <summary>Cite this work <span>BibTeX</span></summary>
+      <div class="research-code">
+        <button type="button" id="copy-citation" data-copied="Copied" data-failed="Select text to copy">Copy BibTeX</button>
+        <pre><code id="bibtex">@misc{huang2026xnav,
+  title = {{X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot}},
+  author = {Jiaxin Huang and Chengxing Lin and Xiaoyu Luo and Sirui Chen and
+            Jingyu Guo and Aolin Li and Kairui Chen and Rui Zhen
+            and Cheng Wen and Kerui Gu and Shunyao Wang and Zhihui
+            Peng and Shaoli Huang},
+  year = {2026},
+  eprint = {2611.17598},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.RO},
+  doi = {10.48550/arXiv.2611.17598},
+  url = {https://arxiv.org/abs/2611.17598}
+}</code></pre>
+      </div>
+    </details>
+    <p class="research-license">Report and figures by Jiaxin Huang et al., licensed under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>.</p>
+  </div>
+</section>
+</main>
+<footer><div class="wrap foot-inner"><div class="foot-brand"><span class="route-mark" aria-hidden="true"><i></i><i></i><i></i></span><b>X-Nav</b><span>AgiBot X-Lab (Boson Lab)</span></div><a href="https://github.com/jingyu198/jingyu.github.io/tree/master/x-nav">Website source</a></div></footer></body></html>

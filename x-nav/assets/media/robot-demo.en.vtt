@@ -1,0 +1,25 @@
+WEBVTT
+
+00:00:00.200 --> 00:00:03.400
+MELIOR is a family of vision-language navigation models for humanoid robots.
+
+00:00:04.000 --> 00:00:10.600
+Open-source scenes and a digital twin provide navigation data from distinct settings.
+
+00:00:11.000 --> 00:00:14.600
+A third source records trajectories on a physical Lingxi X2.
+
+00:00:15.200 --> 00:00:21.800
+The training mix combines navigation examples with vision-language understanding data.
+
+00:00:22.700 --> 00:00:30.600
+MELIOR-A predicts a short action sequence from the instruction and camera frames.
+
+00:00:31.400 --> 00:00:40.200
+MELIOR-N predicts navigation goals in four modes: visible, polar, rotate and stop.
+
+00:00:41.100 --> 00:00:46.600
+The real-robot clip revisits X2’s route from the lobby to the outdoor plaza.
+
+00:00:47.100 --> 00:00:50.300
+The video closes its technical overview with the R2R-CE and RxR-CE evaluation settings.

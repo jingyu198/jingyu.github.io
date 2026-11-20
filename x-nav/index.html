@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>X-Nav | 人形机器人的室内外长程导航</title><meta name="description" content="灵犀 X2 如何从办公楼大堂走到邻楼罗森？通过四段演示和技术报告，了解 X-Nav 的数据引擎、MELIOR 和 X-Navarch。"><meta name="theme-color" content="#101d24">
+<meta property="og:title" content="X-Nav | 人形机器人的室内外长程导航"><meta property="og:description" content="灵犀 X2 如何从办公楼大堂走到邻楼罗森？通过四段演示和技术报告，了解 X-Nav 的数据引擎、MELIOR 和 X-Navarch。"><meta property="og:type" content="website">
+<meta property="og:url" content="https://jingyu198.github.io/jingyu.github.io/x-nav/"><meta property="og:image" content="https://jingyu198.github.io/jingyu.github.io/x-nav/assets/media/hero.jpg">
+<link rel="canonical" href="https://jingyu198.github.io/jingyu.github.io/x-nav/"><link rel="alternate" hreflang="zh-CN" href="https://jingyu198.github.io/jingyu.github.io/x-nav/"><link rel="alternate" hreflang="en" href="https://jingyu198.github.io/jingyu.github.io/x-nav/en/">
+<link rel="icon" type="image/png" href="assets/icon.png"><link rel="preload" href="assets/media/hero.jpg" as="image">
+<link rel="stylesheet" href="assets/site.css"><link rel="stylesheet" href="assets/research.css"><script src="assets/site.js" defer></script></head>
+<body><a class="skip" href="#main">跳到正文</a>
+<header class="mast"><div class="wrap mast-inner"><a class="brand" href="index.html" aria-label="X-Nav 首页"><span class="route-mark" aria-hidden="true"><i></i><i></i><i></i></span><b>X-Nav</b></a>
+<span class="lab">AgiBot X-Lab</span><nav class="main-nav" aria-label="页面导航"><a href="#films">演示</a><a href="#system">系统</a><a href="#results">实验</a><a href="#paper">论文</a></nav>
+<nav class="languages" aria-label="语言"><span lang="zh-CN" aria-current="page">中文</span><a class="other-language" href="en/index.html" hreflang="en" lang="en">EN</a></nav>
+<button class="menu" aria-expanded="false" aria-controls="small-nav" aria-label="导航菜单"><i></i><i></i></button></div>
+<nav id="small-nav" hidden aria-label="移动端导航"><a href="#films">演示</a><a href="#system">系统</a><a href="#results">实验</a><a href="#paper">论文</a></nav></header>
+<main id="main"><section class="hero" aria-labelledby="hero-title"><div class="hero-photo"></div><div class="hero-shade"></div>
+<div class="wrap hero-inner"><div class="hero-copy"><div class="hero-kicker"><span></span>灵犀 X2<i>/</i>视觉语言导航</div>
+<h1 id="hero-title" lang="en">X-Nav</h1><h2>人形机器人的室内外长程导航</h2>
+<p>从办公楼大堂出发，穿过玻璃门，在车流前停步，最后抵达邻楼的罗森。一条中途更新的语言指令，带灵犀 X2 走完这段路。</p>
+<div class="hero-actions"><a class="hero-button primary" href="#films"><i class="play-symbol" aria-hidden="true"></i>观看实机演示</a>
+<a class="hero-button secondary" href="https://arxiv.org/abs/2611.17598"><i class="paper-symbol" aria-hidden="true"></i>阅读论文</a></div></div></div>
+<div class="image-tag"><i></i>灵犀 X2 · 办公楼大堂</div></section>
+<section class="mission-strip" aria-label="MELIOR-A 实机任务记录"><div class="wrap strip-inner"><div class="run-stat">
+<span class="kicker">MELIOR-A 实机行程</span><div class="run-distance">96.6 <small>m</small></div><span class="run-time">用时 3 分 24 秒</span></div>
+<div class="route-line"><div class="route-heading">按路线节点查看回放</div><ol><li><a class="event" href="?film=demo-extended&amp;t=0#films" data-time="0"><span class="event-distance">0.0 m</span><span class="event-line"></span><span>大堂出发</span></a></li><li><a class="event" href="?film=demo-extended&amp;t=20.4#films" data-time="20.4"><span class="event-distance">9.1 m</span><span class="event-line"></span><span>更改目的地</span></a></li><li><a class="event" href="?film=demo-extended&amp;t=68#films" data-time="68"><span class="event-distance">34.2 m</span><span class="event-line"></span><span>穿过玻璃门</span></a></li><li><a class="event" href="?film=demo-extended&amp;t=199.8#films" data-time="199.8"><span class="event-distance">96.6 m</span><span class="event-line"></span><span>抵达罗森</span></a></li></ol></div></div></section>
+<section id="films" class="section films"><div class="wrap"><div class="kicker">演示视频</div><h2>从大堂到罗森</h2>
+<div class="cinema"><div class="screen"><video id="film-player" controls playsinline preload="none" poster="assets/media/demo-overview.jpg" aria-label="实机任务剪辑">
+<source src="assets/media/demo-overview.mp4" type="video/mp4"><track kind="captions" src="assets/media/demo-overview.zh.vtt" srclang="zh" label="中文画面说明" default><track kind="captions" src="assets/media/demo-overview.en.vtt" srclang="en" label="English scene guide">
+<a href="assets/media/demo-overview.mp4">打开 MP4</a></video></div><div class="playlist" aria-label="选择视频"><a class="film-choice" href="assets/media/demo-overview.mp4" data-film="demo-overview" data-detail="跟随第三人称镜头，看灵犀 X2 接到新指令，穿过玻璃门，沿室外步道走到罗森店门口。" aria-current="true">
+          <span class="mini-frame"><img src="assets/media/demo-overview.jpg" width="1280" height="720" loading="lazy" alt=""></span>
+          <span class="film-label"><strong>实机任务剪辑</strong><span class="time">01:28</span></span><span class="tiny-play" aria-hidden="true"></span></a><a class="film-choice" href="assets/media/demo-extended.mp4" data-film="demo-extended" data-detail="同步查看第三人称步态、第一视角局部目标、累计轨迹和场景说明。遇车停等时，可以对照机器人眼前的画面和停止动作。">
+          <span class="mini-frame"><img src="assets/media/demo-extended.jpg" width="1280" height="720" loading="lazy" alt=""></span>
+          <span class="film-label"><strong>四视窗任务回放</strong><span class="time">03:24</span></span><span class="tiny-play" aria-hidden="true"></span></a><a class="film-choice" href="assets/media/robot-demo.mp4" data-film="robot-demo" data-detail="从开源场景和数字孪生采样开始，看同一条导航指令如何变成一组动作，或一个局部导航目标。">
+          <span class="mini-frame"><img src="assets/media/robot-demo.jpg" width="1280" height="720" loading="lazy" alt=""></span>
+          <span class="film-label"><strong>MELIOR 技术导览</strong><span class="time">00:55</span></span><span class="tiny-play" aria-hidden="true"></span></a><a class="film-choice" href="assets/media/spatial-weaving.mp4" data-film="spatial-weaving" data-detail="先勾勒大堂的几何结构，再补全外观，最后加入行人与机器人的运动。这段概念动画用三个步骤呈现空间随时间变化的想法。">
+          <span class="mini-frame"><img src="assets/media/spatial-weaving.jpg" width="1280" height="720" loading="lazy" alt=""></span>
+          <span class="film-label"><strong>空间编织概念动画</strong><span class="time">00:16</span></span><span class="tiny-play" aria-hidden="true"></span></a></div></div>
+<p id="film-detail" class="film-detail" aria-live="polite">跟随第三人称镜头，看灵犀 X2 接到新指令，穿过玻璃门，沿室外步道走到罗森店门口。</p>
+<details class="route-figure"><summary>查看论文中的八个实机路线节点</summary><figure><a href="assets/figures/mission-route.webp"><img src="assets/figures/mission-route.webp" loading="lazy" width="1967" height="1136" alt="MELIOR-A 路线按累计里程标出改道、穿门、等待车辆和抵达店面的实机画面。"></a><figcaption>图中距离来自累计里程计。 <a href="https://arxiv.org/html/2611.17598v1#S7.SS1">技术报告 · 图 12</a></figcaption></figure></details>
+</div></section>
+<section id="system" class="section system"><div class="wrap"><div class="kicker">系统架构</div>
+<h2>从训练数据到真机行走</h2>
+<div class="stages"><article class="stage"><div class="stage-name">数据引擎</div><h3>三类数据，各回答一个问题</h3><p>开源场景提供约 631 万个步级导航样本。部署场地的数字孪生让模型学习在走偏后回到路线。真机采集则记录机载相机随步态产生的晃动和实际走过的距离。</p></article><article class="stage"><div class="stage-name">MELIOR</div><h3>从机载画面预测下一步</h3><p>两种模型都接收语言指令与内置相机的 RGB 图像。MELIOR-A 预测前进、转向或停止等动作。MELIOR-N 输出一个局部导航目标，供机器人执行。</p></article><article class="stage"><div class="stage-name">X-Navarch</div><h3>把子任务串成完整路线</h3><p>规划器拆解指令，在停步时复核进度。MELIOR 负责沿路行走，MELIOR-X 负责最后几米的目标接近。避障层协调通行，目标接近与底层控制还使用激光雷达和里程计。</p></article></div>
+<figure class="twin"><a href="assets/figures/digital-twin.webp"><img src="assets/figures/digital-twin.webp" width="1987" height="470" loading="lazy" alt="把真实大堂重建为 3DGS 数字孪生，再采集导航任务、训练片段及运行纠偏数据。"></a><figcaption><span>在大堂孪生中练习纠偏，再把适配后的模型部署到同一座真实大堂。</span><a href="https://arxiv.org/pdf/2611.17598v1#page=8">技术报告 · 图 6</a></figcaption></figure>
+<div class="obstacle-note"><b>另一趟实机行程</b><p>在同一条通往罗森的路线上，X-Navarch 与 MELIOR-N 组合通过了三处动态障碍、两处静态障碍和两段狭窄通道。机器人在店门口停下。 <a href="https://arxiv.org/html/2611.17598v1#S7.SS1">见图 13</a></p></div></div></section>
+
+<section id="results" class="section" aria-labelledby="research-results-heading">
+  <div class="wrap">
+    <p class="kicker">R2R-CE · RxR-CE · X-Nav-Twin</p>
+    <h2 id="research-results-heading">实验结果</h2>
+    <div class="research-grid">
+      <article class="research-panel research-twin">
+        <h3>在大堂数字孪生中适配</h3>
+        <p>在一处办公大堂的数字孪生中，MELIOR-A 执行了 100 个留出的导航回合，目标都是自动售货机。下图是最终位置距目标 3 米以内的回合占比。</p>
+        <div class="research-bars">
+          <div><span>使用参考轨迹</span><strong>40%</strong><i aria-hidden="true" class="research-track"><i class="research-before"></i></i></div>
+          <div><span>加入纠偏与停止样本</span><strong>80%</strong><i aria-hidden="true" class="research-track"><i class="research-after"></i></i></div>
+        </div>
+        <p class="research-note">把成功半径收紧至 1 米时，成功率从 28% 降至 20%。</p>
+        <a class="research-source" href="https://arxiv.org/pdf/2611.17598v1#page=17">技术报告表 3</a>
+      </article>
+      <article class="research-panel">
+        <h3>导航基准</h3>
+        <p>两版 MELIOR 均通过单个前向 RGB 相机按指令导航。下表为两项基准在 val-unseen 划分上的成功率。</p>
+        <table class="research-table" aria-label="val-unseen 导航成功率">
+          <thead><tr><th scope="col">模型</th><th scope="col">R2R-CE</th><th scope="col">RxR-CE</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">MELIOR-A</th><td>66.1%</td><td>64.3%</td></tr>
+            <tr><th scope="row">MELIOR-N</th><td>70.5%</td><td>60.9%</td></tr>
+          </tbody>
+        </table>
+        <p class="research-note">MELIOR-A 每次决策最多预测四个动作。MELIOR-N 每次决策预测一个导航目标。</p>
+        <a class="research-source" href="https://arxiv.org/pdf/2611.17598v1#page=18">技术报告表 4</a>
+      </article>
+    </div>
+  </div>
+</section>
+<section id="paper" class="section" aria-labelledby="research-paper-heading">
+  <div class="wrap">
+    <p class="kicker">arXiv · cs.RO · 2026</p>
+    <h2 id="research-paper-heading">论文与研究团队</h2>
+    <h3 class="research-title" lang="en">X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot</h3>
+    <ul class="research-authors" aria-label="作者"><li>Jiaxin Huang<sup>1,2,*,†</sup></li> <li>Chengxing Lin<sup>1,3,*</sup></li> <li>Xiaoyu Luo<sup>1,4,*</sup></li> <li>Sirui Chen<sup>1,5,*</sup></li> <li>Jingyu Guo<sup>1,6,*</sup></li> <li>Aolin Li<sup>1,7,*</sup></li> <li>Kairui Chen<sup>1</sup></li> <li>Rui Zhen<sup>1</sup></li> <li>Cheng Wen<sup>1</sup></li> <li>Kerui Gu<sup>1</sup></li> <li>Shunyao Wang<sup>1</sup></li> <li>Zhihui Peng<sup>1</sup></li> <li>Shaoli Huang<sup>1,‡</sup></li></ul>
+    <p class="research-roles">* 同等贡献　 † 项目负责人　 ‡ 通讯作者</p>
+    <ol class="research-affiliations" aria-label="作者单位"><li><sup>1</sup>AgiBot X-Lab (Boson Lab)</li> <li><sup>2</sup>穆罕默德·本·扎耶德人工智能大学</li> <li><sup>3</sup>电子科技大学</li> <li><sup>4</sup>澳门大学</li> <li><sup>5</sup>南洋理工大学</li> <li><sup>6</sup>墨尔本大学</li> <li><sup>7</sup>武汉大学</li></ol>
+    <div class="research-links">
+      <a href="https://arxiv.org/abs/2611.17598">arXiv:2611.17598</a>
+      <a href="https://arxiv.org/pdf/2611.17598v1">阅读 PDF</a>
+    </div>
+    <details class="research-citation">
+      <summary>引用本研究 <span>BibTeX</span></summary>
+      <div class="research-code">
+        <button type="button" id="copy-citation" data-copied="已复制" data-failed="请选择文字复制">复制 BibTeX</button>
+        <pre><code id="bibtex">@misc{huang2026xnav,
+  title = {{X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot}},
+  author = {Jiaxin Huang and Chengxing Lin and Xiaoyu Luo and Sirui Chen and
+            Jingyu Guo and Aolin Li and Kairui Chen and Rui Zhen
+            and Cheng Wen and Kerui Gu and Shunyao Wang and Zhihui
+            Peng and Shaoli Huang},
+  year = {2026},
+  eprint = {2611.17598},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.RO},
+  doi = {10.48550/arXiv.2611.17598},
+  url = {https://arxiv.org/abs/2611.17598}
+}</code></pre>
+      </div>
+    </details>
+    <p class="research-license">技术报告及论文插图由 Jiaxin Huang 等人创作，采用 <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a> 许可。</p>
+  </div>
+</section>
+</main>
+<footer><div class="wrap foot-inner"><div class="foot-brand"><span class="route-mark" aria-hidden="true"><i></i><i></i><i></i></span><b>X-Nav</b><span>AgiBot X-Lab (Boson Lab)</span></div><a href="https://github.com/jingyu198/jingyu.github.io/tree/master/x-nav">主页源码</a></div></footer></body></html>
